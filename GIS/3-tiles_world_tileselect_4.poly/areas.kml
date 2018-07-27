@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <Style id="transWhitePoly">
+    <LineStyle>
+      <width>1.5</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00ffffff</color>
+      <colorMode>normal</colorMode>
+    </PolyStyle>
+  </Style>
+
+  <Placemark>
+    <name>885</name>
+    <styleUrl>#transWhitePoly</styleUrl>
+      <description>
+        <![CDATA[OSM World splitter results]]>
+      </description>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -34.584961,35.595703
+            -34.584961,43.725586
+            -23.598633,43.725586
+            -23.598633,35.595703
+            -34.584961,35.595703
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</Document>
+</kml>
